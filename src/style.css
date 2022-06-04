@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.gamecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+
+}
+
+
+div.gameover{
+    position: absolute;
+    display:flex;
+    background-color: black;
+    color:white;
+    width: 226px;
+    height: 60px;
+    font-size: 35px;
+    border-radius: 10px;
+    top: 275px;
+    right:135px;
+    border: solid black 1px;
+    visibility: hidden;
+    justify-content: center; 
+    align-items: center;
+}
+.grid {
+    width: 500px;
+    height:609px;
+    border: solid black none;
+    position: relative;
+}
+
+.flip {
+    animation : 0.3s linear flipping
+}
+
+@keyframes flipping {
+    0% {
+        transform: rotateY(0deg);
+    }
+    
+    50% {
+        transform: rotateY(90deg);
+    }
+    
+    1000% {
+        transform: rotateY(0deg);
+    }
+}
