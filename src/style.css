@@ -28,7 +28,7 @@ div.gameover{
     top: 275px;
     right:135px;
     border: solid black 1px;
-    visibility: visible;
+    visibility: hidden;
     justify-content: center; 
     align-items: center;
 }
