@@ -59,8 +59,8 @@ div.gameover{
 
 @media only screen and (max-width:500px) {
     img{
-        width:100px;
-        height:162px;
+        width:95px;
+        height:154px;
     }
 
     .grid{
@@ -73,7 +73,7 @@ div.gameover{
     }
 
     div.gameover{
-        top: 225px;
-        right:85px;
+        top: 205px;
+        right:95px;
     }
 }
