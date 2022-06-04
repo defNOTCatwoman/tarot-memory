@@ -76,4 +76,8 @@ div.gameover{
         top: 205px;
         right:95px;
     }
+
+    h1 {
+        font-size: 25px;
+    }
 }
