@@ -37,6 +37,9 @@ div.gameover{
     height:609px;
     border: solid black none;
     position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .flip {
@@ -74,10 +77,14 @@ div.gameover{
 
     div.gameover{
         top: 205px;
-        right:95px;
+        right:85px;
     }
 
     h1 {
         font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
     }
 }
