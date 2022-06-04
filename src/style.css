@@ -28,7 +28,7 @@ div.gameover{
     top: 275px;
     right:135px;
     border: solid black 1px;
-    visibility: hidden;
+    visibility: visible;
     justify-content: center; 
     align-items: center;
 }
@@ -57,7 +57,7 @@ div.gameover{
     }
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:500px) {
     img{
         width:100px;
         height:162px;
@@ -70,5 +70,10 @@ div.gameover{
 
     .gamecontainer{
         width: 400px;
+    }
+
+    div.gameover{
+        top: 225px;
+        right:85px;
     }
 }
