@@ -56,3 +56,19 @@ div.gameover{
         transform: rotateY(0deg);
     }
 }
+
+@media only screen and (max-width:550px) {
+    img{
+        width:100px;
+        height:162px;
+    }
+
+    .grid{
+        width: 400px;
+        height:489px;
+    }
+
+    .gamecontainer{
+        width: 400px;
+    }
+}
