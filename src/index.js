@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenIds.push(cardId);
         this.setAttribute('class','flip');
         this.setAttribute('src', cardArray[cardId].img);
+        matchDisplay.innerHTML = "<br>";
         if (cardsChosen.length === 2) {
             setTimeout(checkForMatch, 500);
         }
